@@ -170,7 +170,7 @@ Public Class Form1
             If Me.Radio_ContinuosMode.Checked = True Then
                 bufferTX = "R " + Me.TrackBar_Sensitivity.Value.ToString()
                 Try
-                    comPuertoSerie.Write(bufferTX)
+                    comPuertoSerie.Write(bufferTX + vbCrLf)
                 Catch ex As Exception
 
                 End Try
@@ -183,7 +183,7 @@ Public Class Form1
         If simulando = True Then
             bufferTX = "LensBad"
             Try
-                comPuertoSerie.Write(bufferTX)
+                comPuertoSerie.Write(bufferTX + vbCrLf)
             Catch ex As Exception
 
             End Try
@@ -207,7 +207,7 @@ Public Class Form1
                 bufferTX = "EmSat"
             End If
             Try
-                comPuertoSerie.Write(bufferTX)
+                comPuertoSerie.Write(bufferTX + vbCrLf)
             Catch ex As Exception
 
             End Try
@@ -276,7 +276,7 @@ Public Class Form1
             If (((comandoRX = "R") Or (comandoRX = "r")) And (Me.Radio_PollingMode.Checked = True)) Then
                 p_bufferTX = "R " + Me.TrackBar_Sensitivity.Value.ToString()
                 Try
-                    comPuertoSerie.Write(p_bufferTX)
+                    comPuertoSerie.Write(p_bufferTX + vbCrLf)
                 Catch ex As Exception
 
                 End Try
@@ -284,27 +284,27 @@ Public Class Form1
 
 
             ElseIf ((comandoRX = "K") Or (comandoRX = "k")) Then
-                p_bufferTX = "Device Restarts" + vbCrLf
+                p_bufferTX = "Device Restarts"
                 Try
-                    comPuertoSerie.Write(p_bufferTX)
+                    comPuertoSerie.Write(p_bufferTX + vbCrLf)
                 Catch ex As Exception
 
                 End Try
                 TextBox_Log_Serial.AppendText("[" + DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss") + "]>> " + p_bufferTX)
 
             ElseIf ((comandoRX = "P") Or (comandoRX = "p")) Then
-                p_bufferTX = "p" + vbCrLf
+                p_bufferTX = "p"
                 Try
-                    comPuertoSerie.Write(p_bufferTX)
+                    comPuertoSerie.Write(p_bufferTX + vbCrLf)
                 Catch ex As Exception
                 End Try
                 TextBox_Log_Serial.AppendText("[" + DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss") + "]>> " + p_bufferTX + vbCrLf)
                 Me.Radio_PollingMode.Checked = True
 
             ElseIf ((comandoRX = "C") Or (comandoRX = "c")) Then
-                p_bufferTX = "c" + vbCrLf
+                p_bufferTX = "c"
                 Try
-                    comPuertoSerie.Write(p_bufferTX)
+                    comPuertoSerie.Write(p_bufferTX + vbCrLf)
                 Catch ex As Exception
 
                 End Try
