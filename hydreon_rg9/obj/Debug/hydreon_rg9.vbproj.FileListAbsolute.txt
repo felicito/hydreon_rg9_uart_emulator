@@ -1,0 +1,11 @@
+C:\Users\felicito.manzano\OneDrive\Visual Studio\hydreon_rg9_uart_emulator\hydreon_rg9\bin\Debug\hydreon_rg9.exe.config
+C:\Users\felicito.manzano\OneDrive\Visual Studio\hydreon_rg9_uart_emulator\hydreon_rg9\bin\Debug\hydreon_rg9.exe
+C:\Users\felicito.manzano\OneDrive\Visual Studio\hydreon_rg9_uart_emulator\hydreon_rg9\bin\Debug\hydreon_rg9.pdb
+C:\Users\felicito.manzano\OneDrive\Visual Studio\hydreon_rg9_uart_emulator\hydreon_rg9\bin\Debug\hydreon_rg9.xml
+C:\Users\felicito.manzano\OneDrive\Visual Studio\hydreon_rg9_uart_emulator\hydreon_rg9\obj\Debug\hydreon_rg9.vbprojAssemblyReference.cache
+C:\Users\felicito.manzano\OneDrive\Visual Studio\hydreon_rg9_uart_emulator\hydreon_rg9\obj\Debug\hydreon_rg9.Form1.resources
+C:\Users\felicito.manzano\OneDrive\Visual Studio\hydreon_rg9_uart_emulator\hydreon_rg9\obj\Debug\hydreon_rg9.Resources.resources
+C:\Users\felicito.manzano\OneDrive\Visual Studio\hydreon_rg9_uart_emulator\hydreon_rg9\obj\Debug\hydreon_rg9.vbproj.GenerateResource.cache
+C:\Users\felicito.manzano\OneDrive\Visual Studio\hydreon_rg9_uart_emulator\hydreon_rg9\obj\Debug\hydreon_rg9.exe
+C:\Users\felicito.manzano\OneDrive\Visual Studio\hydreon_rg9_uart_emulator\hydreon_rg9\obj\Debug\hydreon_rg9.xml
+C:\Users\felicito.manzano\OneDrive\Visual Studio\hydreon_rg9_uart_emulator\hydreon_rg9\obj\Debug\hydreon_rg9.pdb
